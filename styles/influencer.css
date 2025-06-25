@@ -1,0 +1,42 @@
+
+
+/* Sheard Style */
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-c1{
+    color:#3A3A3A;
+}
+
+/* Nav style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 80px;
+}
+
+nav h3{
+    color:#3A3A3A;
+    font-size: bold;
+    font-weight:16rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color:#3A3A3A;
+    margin-right: 34px;
+}
