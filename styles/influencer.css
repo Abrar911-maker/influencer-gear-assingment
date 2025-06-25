@@ -12,19 +12,20 @@
     color:#3A3A3A;
 }
 
+
 /* Nav style */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 50px 80px;
+    margin: 50px 50px;
 }
 
 nav h3{
     color:#3A3A3A;
     font-size: bold;
-    font-weight:16rem;
+    font-weight:1.5rem;
 }
 
 nav ul{
@@ -39,4 +40,48 @@ nav li a{
     text-decoration: none;
     color:#3A3A3A;
     margin-right: 34px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Banner section */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 15px;
+    padding: 29px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner-description{
+    font-size: 0.93rem;
+    font-weight: 500;
+}
+
+.btn-rounded{
+    width: 196px;
+    height: 44px;
+    border: none;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.camera-pic{
+    max-width: 440px;
+    max-height: 414px;
 }
