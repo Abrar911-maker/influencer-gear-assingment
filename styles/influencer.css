@@ -85,3 +85,39 @@ nav li a{
     max-width: 440px;
     max-height: 414px;
 }
+
+
+
+/* Media query for medium device */
+
+@media screen and (max-width: 576px) {
+    nav, 
+    .banner{
+        flex-direction: column;
+    }
+    nav{
+        margin-right: 8px;
+    }
+    .banner{
+        margin: 0px;
+        padding: 0px;
+    }
+    .camera-pic{
+        margin-left: 15px;
+    }
+    .banner{
+    background-image: none;
+    }
+    
+    main{
+        width: 100%;
+    }
+    .banner-title, .banner-description{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .btn-rounded{
+        margin-left: 120px;
+    }
+    
+}
