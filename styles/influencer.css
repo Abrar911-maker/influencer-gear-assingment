@@ -29,7 +29,8 @@ nav h3{
 }
 
 nav ul{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 nav ul li{
@@ -86,6 +87,25 @@ nav li a{
     max-height: 414px;
 }
 
+/* Sponsor Section Style */
+
+.Sponsors{
+    max-width: 80rem;
+    margin: 4rem 10rem;
+    padding: 1rem 0rem;
+    border-top: 0.25px solid #d8e3f0;
+    border-bottom: 0.25px solid #d8e3f0;
+}
+
+.Sponsors ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+}
+
+.Sponsors ul li {
+    list-style: none;
+}
 
 
 /* Media query for medium device */
@@ -119,5 +139,24 @@ nav li a{
     .btn-rounded{
         margin-left: 120px;
     }
-    
+
+    .camera-pic{
+        background-image: url(../images/Circle\ design.svg);
+        background-repeat: none;
+        background-position: middle bottom;
+    }
+    .Sponsors ul{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .Sponsors{
+    max-width: 20rem;
+    margin: 2rem 6.5rem;
+    padding: 1rem 0rem;
+    border-top: 0.25px solid #d8e3f0;
+    border-bottom: 0.25px solid #d8e3f0;
+    }
+    .Sponsors ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    }
 }
