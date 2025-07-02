@@ -107,6 +107,70 @@ nav li a{
     list-style: none;
 }
 
+/* Card section style */
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+.card{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-img{
+    max-width: 18rem;
+}
+
+.cards{
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.title-cards{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card-title{
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.75rem;
+}
+
+.card-price{
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.ratings{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(94, 99, 102, 1);
+}
+
+.card-descripsion{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(94, 99, 102, 1);
+}
+
+
+
+/* Card rating star checked and unchecked*/
+.checked{
+    color: orange;
+}
+
+.unchecked{
+    color:rgba(94, 99, 102, 1);
+    
+}
 
 /* Media query for medium device */
 
