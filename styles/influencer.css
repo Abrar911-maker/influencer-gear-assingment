@@ -72,8 +72,8 @@ nav li a{
 }
 
 .btn-rounded{
-    width: 196px;
-    height: 44px;
+    max-width: 196px;
+    max-height: 44px;
     border: none;
     border-radius: 41px;
     background-color: #E02C6D;
@@ -83,8 +83,8 @@ nav li a{
 }
 
 .camera-pic{
-    max-width: 440px;
-    max-height: 414px;
+    max-width: 27.5rem;
+    max-height: 25.8rem;
 }
 
 /* Sponsor Section Style */
@@ -175,52 +175,67 @@ nav li a{
 /* Media query for medium device */
 
 @media screen and (max-width: 576px) {
-    nav, 
-    .banner{
+
+    header, body{
+        max-width: 340px;
+    }
+
+    nav, .banner{
         flex-direction: column;
     }
+    
     nav{
-        margin-right: 8px;
+        margin: 0 auto;
     }
+    nav ul{
+    grid-template-columns: repeat(2, 2fr);
+    padding: 15px;
+    margin: 0px;
+   }
     .banner{
         margin: 0px;
         padding: 0px;
+        background-image: none;
+        max-width: 340px;
     }
     .camera-pic{
-        margin-left: 15px;
+     margin:0px;
+     max-width: 340px;
     }
-    .banner{
-    background-image: none;
-    }
-    
-    main{
-        width: 100%;
+    .camera-pic img{
+    max-width: 18.5rem;
+    max-height: 18.8rem;
     }
     .banner-title, .banner-description{
         text-align: center;
-        margin-left: 30px;
+        margin: 0 auto;
+        padding: auto;
     }
     .btn-rounded{
-        margin-left: 120px;
-    }
-
-    .camera-pic{
-        background-image: url(../images/Circle\ design.svg);
-        background-repeat: none;
-        background-position: middle bottom;
+        margin-left: 65px ;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
     .Sponsors ul{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
     }
     .Sponsors{
-    max-width: 20rem;
-    margin: 2rem 6.5rem;
-    padding: 1rem 0rem;
-    border-top: 0.25px solid #d8e3f0;
-    border-bottom: 0.25px solid #d8e3f0;
+    max-width: 340px;    
+    margin: 0px;
+    padding: 0px;
     }
     .Sponsors ul li {
     margin-right: 20px;
     margin-bottom: 10px;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .cards{
+    max-width: 340px;
+    margin: 0px;
     }
 }
