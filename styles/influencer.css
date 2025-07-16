@@ -329,8 +329,8 @@ footer{
     }
 
     .camera-pic{
-        margin: 30px 0px 0px 0px;
-        padding-top: 10px;
+        margin: 60px 0px 0px 0px;
+        padding-top: 50px;
         max-width: 400px;
     }
     /* sponser related query */
@@ -343,6 +343,11 @@ footer{
 
     .Sponsors{
         margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .sponsor-container{
+        padding-right: 30px;
     }
 
     .card-container{
@@ -356,6 +361,10 @@ footer{
     border-radius: 10px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     margin-left: 12px;
+    }
+
+    .title-cards{
+        margin-top: 100px;
     }
     /* Featured Products related query */
    
