@@ -282,13 +282,15 @@ footer{
 
     nav h3{
        font-size: 1.5rem;
+       margin-right: 22px;
     }
 
     nav ul{
         grid-template-columns: repeat(3, 1fr);
         margin: 0px;
-        margin-right: 30px;
         gap: 20px;
+        border-bottom: 0.25px solid #d8e3f0;
+        padding: 0px 0px 20px 0px;
     }
 
     nav li a{
@@ -327,7 +329,7 @@ footer{
     }
 
     .camera-pic{
-        margin: 0px;
+        margin: 30px 0px 0px 0px;
         padding-top: 10px;
         max-width: 400px;
     }
@@ -339,11 +341,22 @@ footer{
         margin: 0px;
     }
 
-    .card-container{
-        grid-template-columns: repeat(1, 1fr);
-        margin: 20px;
+    .Sponsors{
+        margin: 0 auto;
     }
 
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+   .card{
+    max-width: 325px;
+    max-height: 476px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 12px;
+    }
     /* Featured Products related query */
    
     .f-Products-img{
