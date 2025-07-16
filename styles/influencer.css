@@ -165,6 +165,15 @@ nav li a{
     color: rgba(94, 99, 102, 1);
 }
 
+.see-more-a{
+    text-decoration: none;
+}
+
+.see-more{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #E02C6D;
+}
 
 
 /* Card rating star checked and unchecked*/
@@ -177,6 +186,80 @@ nav li a{
     
 }
 
+/* Featured Products related styles */
+
+.f-products-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 100px;
+}
+
+.f-Products-img{
+    max-width: 404px;
+    max-height: 270px;
+}
+
+.f-products-container{
+    max-width: 610px;
+    max-height: 224px;
+}
+
+.f-products-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.f-products-description{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+
+.join-now{
+    max-width: 155px;
+    max-height: 44px;
+    padding: 10px 26px;
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Footer related styles */
+
+footer{
+    background-color:rgba(10, 8, 38, 1);
+    color: white;
+    text-align: center;
+}
+
+.footer-container{
+    padding: 50px 0px;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.footer-description{
+    font-size: 0.875rem;
+}
+
+.fa-brands{
+    background-color: #1d1f46;
+    padding: 7px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
 /* Media query for medium device */
 
 @media screen and (max-width: 576px) {
@@ -188,7 +271,7 @@ nav li a{
         margin: 0 auto;
     }
 
-    nav, .banner{
+    nav, .banner, .f-products-content{
         flex-direction: column;
     }
 
@@ -218,7 +301,7 @@ nav li a{
 
     .banner{
         padding: 0;
-        margin: 0px;
+        margin: 30px 0px 30px 0px;
         justify-content: center;
         background-position: bottom left;
         background-size: 400px;
@@ -240,6 +323,7 @@ nav li a{
     
     .btn-rounded{
         margin-left: 110px;
+        margin-top: 20px;
     }
 
     .camera-pic{
@@ -259,6 +343,30 @@ nav li a{
         grid-template-columns: repeat(1, 1fr);
         margin: 20px;
     }
-   
 
+    /* Featured Products related query */
+   
+    .f-Products-img{
+        max-width: 350px;
+    }
+    .f-products-content{
+        margin: 0px 25px;
+    }
+
+    .f-products-container{
+        text-align: center;
+    }
+    
+    /* Footer related styles */
+
+    footer{
+        margin-top: 150px;
+        max-height: 600px;
+        padding: 50px 68px;
+    }
+    .footer-container{
+        padding: 0px;
+    }
+
+    
 }
